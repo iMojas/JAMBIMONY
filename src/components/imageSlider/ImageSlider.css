@@ -1,0 +1,59 @@
+.imageSlider {
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
+}
+
+.imageSlider h1 {
+  color: #343a40;
+  font-size: 42px;
+  font-weight: 600;
+  padding-bottom: 12px;
+  font-family: "raleway";
+}
+
+.imageSlider p {
+  font-size: 17px;
+  color: #777;
+  font-weight: 400;
+  line-height: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+.slides {
+  display: flex;
+  margin-top: 50px;
+  gap: 40px;
+  overflow: hidden;
+}
+.slide {
+  width: 70px;
+  height: 300px;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+  border-radius: 30px;
+  position: relative;
+}
+.slide:hover {
+  width: 300px;
+  transition: 0.5s ease;
+}
+.slide:hover p {
+  font-weight: 600;
+  font-size: 22px;
+  left: 10px;
+  bottom: 15px;
+  transform: rotate(0deg);
+  line-height: normal;
+}
+
+.slide p {
+  position: absolute;
+  left: 50%;
+  bottom: 30px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  transform: translateX(-50%) rotate(-90deg);
+}

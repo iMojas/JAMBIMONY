@@ -1,0 +1,33 @@
+.heritageWrapper{
+  height: 80vh;
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
+}
+
+.heritageWrapper a{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.heritageWrapper .stateCard{
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: auto;
+  flex-direction: column;
+  overflow: hidden;
+  height: max-content;
+}
+
+.heritageWrapper .stateCard img{
+  height: 100%;
+  width: 100%;
+}
+.heritageWrapper .stateCard p{
+  width: 100%;
+  text-align: center;
+}

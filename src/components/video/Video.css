@@ -1,0 +1,82 @@
+#video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.video {
+  position: relative;
+}
+.textContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.185);
+  height: 100%;
+  width: 100%;
+  padding: 0 25%;
+}
+
+.Typewriter__wrapper,
+.Typewriter__cursor {
+  color: white;
+  font-size: 40px;
+  font-family: "raleway";
+}
+.textContainer h1 {
+  font-size: 45px;
+  padding: 20px 0px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.textContainer .pText {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+  line-height: 30px;
+}
+.textContainer a {
+  background-color: #fff;
+  color: #138808;
+  text-decoration: none;
+  padding: 17px 45px;
+  margin-top: 25px;
+  display: inline-block;
+  font-size: 14px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.textContainer a:hover {
+  color: #fff;
+}
+
+.textContainer a:after {
+  content: "Read More";
+  text-align: center;
+  background-color: #138808;
+  width: 0%;
+  font-size: 15px;
+  height: 100%;
+  line-height: 50px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s ease;
+  right: 0;
+}
+
+.textContainer a:hover:after {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+.footer {
+  background-color: white;
+  border-top: 3px solid #00a8c5;
+  flex-direction: column;
+}
+.footer .topSection {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 30px 0;
+}
+.topSection .greenText {
+  color: #138808;
+  font-size: 30px;
+  font-family: "raleway";
+  font-weight: 600;
+}
+.topSection .heading {
+  color: #333;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+}
+.topSection .subHeading {
+  color: #333;
+  padding: 5px 0px;
+  font-family: "raleway";
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.topSection .linkHeading a {
+  text-decoration: none;
+  color: #333;
+}
+.topSection .linkHeading a:hover {
+  cursor: pointer;
+  color: rgb(37, 163, 37);
+}
+.topSection .linkHeading:hover {
+  cursor: pointer;
+  transform: translateX(5px);
+  transition: 0.3s ease;
+  color: rgb(37, 163, 37);
+}
+
+.footer .bottomSection {
+  width: 100%;
+}
+.footer .bottomSection p {
+  background-color: #ff7708;
+  color: white;
+  text-align: center;
+  padding: 14px 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}

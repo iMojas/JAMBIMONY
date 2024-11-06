@@ -1,0 +1,193 @@
+.siteWrapper {
+    padding: 20px;
+  }
+  
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  h2 {
+    color: rgb(37, 37, 37);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+  }
+  .siteWrapper section {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .siteDescription {
+    width: 68%;
+  }
+  
+  .all_info {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .all_info .img_info {
+    width: 30%;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .all_info .img_info img {
+    width: 100%;
+    height: 100%;
+  }
+  .siteDescription .imageCards {
+    display: flex;
+    gap: 10px;
+    overflow-x: scroll;
+    margin-top: 10px;
+  }
+  
+  .siteDescription .imageCards .imageCard {
+    flex-shrink: 0;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    position: relative;
+  }
+  .siteDescription .imageCards .imageCard img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .siteDescription .imageCards .imageCard .place_name {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: black;
+    font-size: 13px;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: rgb(2 2 2) 1px 1px 20px 20px;
+  }
+  /* this is right side code */
+  .siteBookings {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .siteBookings .smallSection {
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: max-content;
+    border: none;
+    padding: 10px 0;
+  }
+  
+  section .sideHeading {
+    text-align: center;
+    font-size: 21px;
+    color: black;
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .siteBookings .mapWrapper {
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .mapWrapper iframe {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
+  
+  .weatherWrapper div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  .weatherWrapper span {
+    font-size: 14px;
+    color: rgb(46, 45, 45);
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .transDetails,
+  .hotelDetails {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .transDetails div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30%;
+  }
+  
+  .transDetails span {
+    font-size: 14px;
+    color: rgb(46, 45, 45);
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .transDetails button {
+    background-color: rgb(91, 148, 255);
+    padding: 2px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .hotelDetails div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 15%;
+  }
+  .hotelDetails span {
+    font-size: 14px;
+    color: rgb(46, 45, 45);
+    font-weight: 600;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .hotelDetails button {
+    background-color: rgb(91, 148, 255);
+    padding: 2px 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .visitorsDetails table .table_head {
+    color: black;
+    font-family: "Areal";
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .visitorsDetails table .small_head {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(41, 40, 40);
+    font-weight: 600;
+    padding-left: 10px;
+  }
+  

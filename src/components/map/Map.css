@@ -1,0 +1,14 @@
+.mapContainer {
+  background-color: rgba(0, 0, 0, 0.74);
+  flex-direction: column;
+  color: white;
+  padding: 140px 0;
+}
+
+.mapContainer h2,
+h4 {
+  font-family: "raleway";
+  font-weight: 600;
+  margin-bottom: 30px;
+  width: 53%;
+}

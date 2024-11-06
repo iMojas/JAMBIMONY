@@ -1,0 +1,21 @@
+.cityContainer {
+  background-color: #e1faf1;
+  padding: 100px;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.cityContainer h1 {
+  font-family: "raleway";
+  color: #343a40;
+  font-size: 22px;
+}
+
+.cityWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+

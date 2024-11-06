@@ -1,0 +1,42 @@
+.imageGallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: white;
+  padding: 130px 20px;
+}
+.imageCard {
+  width: 350px;
+  border-radius: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+}
+
+.imageCard img {
+  height: 100%;
+  width: 100%;
+  transition: 0.2s ease-out;
+  filter: brightness(40%);
+}
+.imageCard img:hover {
+  transition: 0.5s ease;
+  transform: scale(110%);
+  filter: brightness(100%);
+}
+.imageCard:hover span {
+  transform: translate(-50%, 0%);
+  transition: 0.3s ease;
+}
+
+.imageCard span {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 105%);
+  bottom: 10px;
+  z-index: 10;
+  color: white;
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

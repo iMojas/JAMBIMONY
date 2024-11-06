@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  transition: 0.5s ease;
+  width: 100%;
+  z-index: 99;
+  /* background-color: transparent; */
+  padding: 5px 20px;
+  position: sticky;
+  box-shadow: -2px -5px 20px 0px rgba(255, 255, 255, 1);
+  top: 0;
+}
+#fixed {
+  padding: 10px 20px;
+  transition: 0.5s ease;
+  position: fixed;
+  top: 0;
+}
+
+.leftSide img {
+  width: 100px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navContainer {
+  display: flex;
+  gap: 18px;
+}
+.navContainer a {
+  text-decoration: none;
+}
+/* .navContainer .active {
+  border-top: 2px solid orange;
+} */
+.navContainer li {
+  list-style: none;
+  text-decoration: none;
+  color: green;
+  font-family: "raleway";
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+  /* color: white; */
+}
+
+.navContainer li::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-top: 2px solid orangered;
+  left: 0;
+  top: 0;
+  transform: translateX(-100%);
+  transition: 0.3s ease-out;
+}
+.navContainer li:hover::after {
+  transform: translateX(0%);
+  transition: 0.5s ease;
+}
+
+.searchContainer {
+  gap: 10px;
+}
+
+.searchBar {
+  gap: 5px;
+  border: 1px solid #7d7f89;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.searchBar input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.searchBar .fa-microphone {
+  color: orange;
+  cursor: pointer;
+}
+#searchBtn {
+  cursor: pointer;
+  color: green;
+}
+
+#searchBtn:active {
+  transform: scale(0.95);
+}
+
+#google_element {
+  position: absolute;
+  top: 2px;
+  right: 5%;
+}

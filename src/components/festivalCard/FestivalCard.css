@@ -1,0 +1,36 @@
+.festCard {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.festCard .imgContainer {
+  height: 180px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.festCard .imgContainer img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s ease-out;
+}
+.festCard .imgContainer img:hover {
+  transform: scale(104%);
+  transition: 0.4s ease;
+}
+
+.festCard .festName {
+  color: rgb(66, 66, 66);
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.festCard .festDate {
+  color: rgb(54, 54, 54);
+  font-weight: 400;
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
